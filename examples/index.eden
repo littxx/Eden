@@ -1,0 +1,23 @@
+let x = 5 + 3;
+let y = x * 2;
+
+function sum(a, b) {
+    let result = a + b;
+    return result;
+}
+
+let z = sum(x, y);
+
+if (z > 20) {
+    let msg = "Greater than 20";
+} else {
+    let msg = "Less than or equal to 20";
+}
+
+while (x < 10) {
+    x = x + 1;
+}
+
+for (let i = 0; i < 10; i = i + 1) {
+    y = y + i;
+}
